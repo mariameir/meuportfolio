@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    background-color: #e5e5f7;
+    
     opacity: 1;
     background-image: radial-gradient(#a8acff 0.6000000000000001px, #ffffff 0.6000000000000001px);
     background-size: 12px 12px;
@@ -33,6 +33,10 @@ body::-webkit-scrollbar-thumb {
 
 main {
   width: 1120px;
+ 
+}
+h1{
+  font-size:40px;
 }
 
 /* cabecalho */
@@ -42,14 +46,13 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 5px 20px;
-  height: 80px;
+  height: 85px;
   position: fixed;
   top: 0;
   z-index: 999;
-  background-color: #fcfbff;
-  box-shadow: 0 1px 0 #ececec;
   max-width: 1120px;
   width: 100%;
+
 }
 
 .nav-list {
@@ -180,7 +183,6 @@ section#projects {
 
 
 /* CONTACTS */
-
 #contact {
   height: calc(100vh + 80px);
   width: 100%;
@@ -222,9 +224,8 @@ input, textarea, button {
 }
 
 /* footer */
-
 footer {
-background-color: #ffa600;
+
   padding: 25px;
   text-align: center;
 }
@@ -263,3 +264,7 @@ background-color: #ffa600;
     width: 80%;
   }
 }
+
+
+
+
