@@ -7,12 +7,12 @@ Criação do meu primeiro portfólio. Projeto simples em que tenho uma simples d
 <br>
 
 [Clique aqui para ver o projeto](https://mariameir.github.io/meuportfolio/)
-## 🚀 Tecnologias utilizadas:
+## 🚀 Tecnologias utilizadas:<br>
 
 
-![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![enter image description here](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![enter image description here](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) <br><br>
+![enter image description here](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)<br><br>
+![enter image description here](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)<br><br>
 📚 **Biblioteca Swiper**
 # Status do projeto: ✅Finalizado
 <br>
