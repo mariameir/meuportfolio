@@ -17,3 +17,4 @@ Criação do meu primeiro portfólio. Projeto simples em que tenho uma simples d
 # Status do projeto: ✅Finalizado
 <br>
 
+<img width="720" alt="1" src="https://user-images.githubusercontent.com/52001215/221571536-8bb159bd-c706-4d3e-ac88-25bc494faae9.png">
