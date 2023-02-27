@@ -14,7 +14,8 @@ Criação do meu primeiro portfólio. Projeto simples em que tenho uma simples d
 ![enter image description here](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)<br><br>
 ![enter image description here](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)<br><br>
 📚 **Biblioteca Swiper**
-# Status do projeto: ✅Finalizado
+
 <br>
 
 <img width="720" alt="1" src="https://user-images.githubusercontent.com/52001215/221571536-8bb159bd-c706-4d3e-ac88-25bc494faae9.png">
+<h1> Status do projeto: ✅Finalizado</h1>
