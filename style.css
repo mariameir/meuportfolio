@@ -114,8 +114,8 @@ section#home {
 }
 
 .home-img img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   animation: float 3s ease-in-out infinite;
   box-shadow: 0 10px 10px;
   border-radius: 50%;
@@ -193,10 +193,22 @@ section#projects {
   gap: 30px;
 }
 
+#xp{
+  
+    height: calc(100vh + 80px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+
 /* footer */
 footer {
-
   padding: 25px;
+  align-items: center;
   text-align: center;
 }
 
