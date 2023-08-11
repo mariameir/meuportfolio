@@ -39,6 +39,15 @@ h1{
   font-size:40px;
 }
 
+.empresa-img{
+  width: 80px;
+  border-radius: 50%;
+}
+.empresas{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
 /* cabecalho */
 
 header {
@@ -190,7 +199,20 @@ section#projects {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 30px;
+  
+}
+.contact-icons {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px; /* Espaçamento entre os ícones */
+  text-align: center; /* Centraliza horizontalmente */
+}
+
+.contact-icons .project-info {
+  display: flex;
+  align-items: center;
 }
 
 #xp{
@@ -202,6 +224,7 @@ section#projects {
     justify-content: center;
     flex-direction: column;
     gap: 30px;
+    padding: 20px;
   }
 
 
