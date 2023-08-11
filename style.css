@@ -44,8 +44,13 @@ h1{
   border-radius: 50%;
 }
 .empresas{
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 100px;
+}
+
+.icons-stack{
+  width: 30px;
+  height: 30px;
 }
 
 /* cabecalho */
@@ -206,8 +211,8 @@ section#projects {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px; /* Espaçamento entre os ícones */
-  text-align: center; /* Centraliza horizontalmente */
+  gap: 40px; 
+  text-align: center;
 }
 
 .contact-icons .project-info {
@@ -272,8 +277,6 @@ footer {
 
 
 .social{
-  /* tamanho da imagem */
-  height: 40px;
-  width: 40px;
-
+  height: 50px;
+  width: 50px;
 }
