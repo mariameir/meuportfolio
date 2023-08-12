@@ -53,6 +53,7 @@ h1{
   height: 30px;
 }
 
+
 /* cabecalho */
 
 header {
@@ -159,6 +160,7 @@ section#projects {
 .project-img {
   width: 50%;
 }
+
 
 .project-img img {
   box-shadow: 0 1px 1px rgba(33, 31, 31, 0.2);
