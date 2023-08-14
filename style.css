@@ -53,7 +53,6 @@ h1{
   height: 30px;
 }
 
-
 /* cabecalho */
 
 header {
@@ -161,7 +160,6 @@ section#projects {
   width: 50%;
 }
 
-
 .project-img img {
   box-shadow: 0 1px 1px rgba(33, 31, 31, 0.2);
   object-fit: cover;
@@ -238,31 +236,9 @@ section#projects {
 /* footer */
 footer {
   padding: 25px;
-  align-items:center;
+  align-items: center;
   text-align: center;
-
 }
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  border-radius: 4px;
-  padding: 5px;
-  position: fixed;
-  z-index: 9999;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
 
 @media (max-width: 450px) {
   header {
