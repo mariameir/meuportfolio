@@ -156,6 +156,12 @@ section#projects {
   justify-content: center;
 }
 
+.link-projeto{
+  color: #F88644;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
 .project-img {
   width: 50%;
 }
