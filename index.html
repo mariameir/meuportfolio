@@ -13,11 +13,12 @@
 <body>
   
   <nav id="desktop-nav">
-    <div class="logo">Maria Meir</div>
+    <div class="logo"> &lt;  MEIR /&gt;
+    </div>
     <div>
       <ul class="nav-links">
         <li><a href="#about">Sobre mim</a></li>
-        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#experience">Experiência</a></li>
         <li><a href="#projects">Projetos</a></li>
         <li><a href="#contact">Contate-me</a></li>
       </ul>
@@ -41,12 +42,12 @@
   </nav>
   <section id="profile">
     <div class="section__pic-container">
-      <img src="assets/about-pic.jpeg" alt="" />
+      <img id="foto-about" src="assets/about-pic.jpeg" alt="" />
     </div>
     <div class="section__text">
-      <p class="section__text__p1">Me chamo</p>
+      <p class="section__text__p1">Hello, there!</p>
       <h1 class="title">Maria Meir</h1>
-      <p class="section__text__p2">sou uma dev frontend jr</p>
+      <p class="section__text__p2">Dev Frontend JR</p>
       <div class="btn-container">
         <button
           class="btn btn-color-2"
@@ -55,18 +56,18 @@
         Curriculum PDF
         </button>
         <button class="btn btn-color-1" onclick="location.href='./#contact'">
-          Informações para contato
+          Contate-me
         </button>
       </div>
       <div id="socials-container">
         <img
-          src="./assets/linkedin.png"
+          src="assets/linkedin.svg"
           alt="My LinkedIn profile"
           class="icon"
           onclick="location.href='https://linkedin.com/'"
         />
         <img
-          src="./assets/github.png"
+          src="./assets/github.svg"
           alt="My Github profile"
           class="icon"
           onclick="location.href='https://github.com/'"
@@ -75,7 +76,7 @@
     </div>
   </section>
   <section id="about">
-    <p class="section__text__p1">Saiba mais</p>
+    <p class="section__text__p1">Resumo</p>
     <h1 class="title">Sobre mim</h1>
     <div class="section-container">
       <div class="section__pic-container">
@@ -89,16 +90,16 @@
         <div class="about-containers">
           <div class="details-container">
             <img
-              src="./assets/experience.png"
+              src="./assets/experience.svg"
               alt="Experience icon"
               class="icon"
             />
-            <h3>Experiencia</h3>
+            <h3>Experiência</h3>
             <p>+1 anos <br />Desenvolvimento Frontend</p>
           </div>
           <div class="details-container">
             <img
-              src="./assets/education.png"
+              src="./assets/education.svg"
               alt="Education icon"
               class="icon"
             />
@@ -126,130 +127,68 @@
     />
   </section>
   <section id="experience">
-    <p class="section__text__p1">Explore na minha aba de experiencia</p>
-    <h1 class="title">Experiencias</h1>
+    <p class="section__text__p1">Saiba minhas </p>
+    <h1 class="title">Stacks</h1>
     <div class="experience-details-container">
       <div class="about-containers">
         <div class="details-container">
           <h2 class="experience-sub-title">Desenvolvimento Frontend</h2>
           <div class="article-container">
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>HTML</h3>
-                <p>Intermediario</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>CSS</h3>
-                <p>Intermediario</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>SASS</h3>
-                <p>Básico</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>JavaScript</h3>
-                <p>Básico</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>React</h3>
-                <p>Iniciante</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Figma</h3>
-                <p>Básica</p>
-              </div>
-            </article>
+            <div class="column">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediario</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediario</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+            </div>
+            <div class="column">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>React</h3>
+                  <p>Iniciante</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Básica</p>
+                </div>
+              </article>
+            </div>
           </div>
         </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Desenvolvimento Frontend</h2>
-          <div class="article-container">
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>PostgreSQL</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Node JS</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Git</h3>
-                <p>Intermediario</p>
-              </div>
-            </article>
-          </div>
-        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
       </div>
     </div>
-    <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#projects'"
-    />
-  </section>
+</section>
+
   <section id="projects">
-    <p class="section__text__p1">Navegue pelos meus recentes</p>
+    <p class="section__text__p1">Navegue pelos meus ultimos</p>
     <h1 class="title">Projetos</h1>
     <div class="experience-details-container">
       <div class="about-containers">
@@ -336,11 +275,11 @@
   </section>
   <section id="contact">
     <p class="section__text__p1">Entre em contato</p>
-    <h1 class="title">Contate-me/h1>
+    <h1 class="title">Contate-me</h1>
     <div class="contact-info-upper-container">
       <div class="contact-info-container">
         <img
-          src="./assets/email.png"
+          src="./assets/email.svg"
           alt="Email icon"
           class="icon contact-icon email-icon"
         />
@@ -348,7 +287,7 @@
       </div>
       <div class="contact-info-container">
         <img
-          src="./assets/linkedin.png"
+          src="./assets/linkedin.svg"
           alt="LinkedIn icon"
           class="icon contact-icon"
         />
@@ -361,7 +300,7 @@
       <div class="nav-links-container">
         <ul class="nav-links">
           <li><a href="#about">Sobre mim</a></li>
-          <li><a href="#experience">Exoeriencia</a></li>
+          <li><a href="#experience">Experiência</a></li>
           <li><a href="#projects">Projetos</a></li>
           <li><a href="#contact">Contatos</a></li>
         </ul>
