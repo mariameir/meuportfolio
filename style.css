@@ -7,7 +7,7 @@
 
 }
 body {
-  background-color: rgb(213, 232, 181);
+  background-color: #EFF7EF;
   font-family: "Lato", sans-serif;
 }
 html {
@@ -46,10 +46,10 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: rgba(23, 133, 11, 0.875);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgba(23, 133, 11, 0.875);
 }
 
 .logo {
@@ -274,7 +274,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: rgba(243, 245, 243, 0.339);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
